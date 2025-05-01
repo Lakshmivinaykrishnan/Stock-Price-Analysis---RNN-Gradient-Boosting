@@ -63,7 +63,6 @@ To reduce dimensionality and retain only the most informative features:
 - Generated predictions for the next 90 days based on the trained model
 - Plotted actual vs predicted values for test data, alongside forecasted values
 
-##  Model Results & Evaluation
-After training the LSTM model on engineered features, the evaluation metrics on the test set were: MAE of 0.63, RMSE of 0.84, and MAPE of 2.02%.
+
 
 
