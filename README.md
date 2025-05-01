@@ -4,17 +4,17 @@ This end-to-end pipeline focuses on analyzing and forecasting stock prices. The 
 
 ---
 ## Tech Stack for data manipulation, statistical analysis, machine learning, and deep learning tasks
-- python
-- tensorFlow 
-- keras
-- xgboost
-- pandas
-- numpy
-- scikit-learn
-- statsmodels
-- shap
-- matplotlib
-- seaborn
+- Python
+- TensorFlow 
+- Keras
+- Xgboost
+- Pandas
+- Numpy
+- Scikit-learn
+- Statsmodels
+- Shap
+- Matplotlib
+- Seaborn
 
 ##   Data Extraction & Preprocessing
 
