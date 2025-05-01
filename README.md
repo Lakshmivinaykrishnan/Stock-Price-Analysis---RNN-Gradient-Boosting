@@ -31,7 +31,6 @@ This end-to-end pipeline focuses on analyzing and forecasting stock prices. The 
 - Saved merged data for downstream use
 -	Scaled features using MinMaxScaler for neural network readiness
 > ⚠️ This step was the most time-consuming due to inconsistencies and missing macroeconomic entries.
-
 ---
 
 ##  Feature Selection with XGBoost
@@ -42,11 +41,6 @@ To reduce dimensionality and retain only the most informative features:
 - Plotted and analyzed weighted feature importances
 - Dropped low-importance features to reduce model complexity
   
-#### Code Reference:   
- [feature_engineering.py](./feature_engineering.py)
-#### Visual Preview:  
-[Feature Example](./images/feature_preview.png)
-
 ---
 ## Feature Engineering and Scaling
 - Scaling the Target Variable
@@ -61,10 +55,6 @@ To reduce dimensionality and retain only the most informative features:
 - Plotting the Results
 - Future Forecasting
 - Optimized Model
-##### Code Reference:   
- [feature_engineering.py](./feature_engineering.py)
-#### Visual Preview:  
-[Feature Example](./images/feature_preview.png)
 
 ## Model Architecture
 - Architecture: Input → LSTM → Dropout  → LSTM → Dropout → Dense
@@ -77,5 +67,3 @@ To reduce dimensionality and retain only the most informative features:
 After training the LSTM model on engineered features, the evaluation metrics on the test set were: MAE of 0.63, RMSE of 0.84, and MAPE of 2.02%.
 
 
-#### Visualization:  
-[Feature Example](./images/feature_preview.png)
