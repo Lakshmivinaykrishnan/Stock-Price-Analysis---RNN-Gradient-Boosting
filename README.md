@@ -1,4 +1,4 @@
-#  Stock Price Analysis & Forecasting
+#  Stock Price Analytics
 
 This end-to-end pipeline focuses on analyzing and forecasting stock prices. The workflow includes extensive data extraction, feature engineering, feature selection using XGBoost, and forecasting using an LSTM neural network. The analysis is performed using publicly available stock data for Bank of America (BAC).
 
